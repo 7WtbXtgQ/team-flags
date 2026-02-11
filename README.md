@@ -1,3 +1,5 @@
+![CI Status](https://github.com/7WtbXtgQ/team-flags/actions/workflows/ci.yml/badge.svg)
+
 # Team Flags EDU - DevSecOps Learning Platform
 
 > **Educational version** of the Team Flags platform, designed for learning Docker, CI/CD, and DevSecOps practices.
