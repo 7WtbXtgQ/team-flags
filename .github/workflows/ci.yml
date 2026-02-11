@@ -55,6 +55,6 @@ jobs:
 
 - name: Health check
   run: |
-    docker run -d -p 8080:8080 --name app my-app:${{ github.sha }}
+    docker run -d -p 8080:8080 --name app team-flags:${{ github.sha }}
     sleep 10
     curl -f http://localhost:8080/health || exit 1
